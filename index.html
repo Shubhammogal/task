@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <style>
+  .s2 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .s2 a {
+        background-color: rgb(205, 201, 201);
+        margin-right: 15px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+
+
+      }
+
+      .s2 a i {
+        width: 20px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 20px;
+
+      }
+
+      .btnt {
+        height: 35px;
+        background-color: rgb(218, 218, 6);
+        border-radius: 20px;
+        margin-right: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .btnt:hover {
+        background-color: orange;
+      }
+
+      .blank {
+        background-color: rgb(205, 201, 201);
+        width: 50px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 2px;
+      }
+
+      .nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .back {
+
+        width: 100%;
+        height: 380px;
+        margin-top: 80px;
+        opacity: 0.4 black;
+
+      }
+
+      .dd {
+        transform: translateY(-240px);
+        margin-left: 25px;
+      }
+
+      .disc {
+        color: rgb(199, 139, 8);
+        font-size: 23px;
+
+      }
+
+      .sec {
+        margin-left: 20px;
+        transform: translateY(-200px);
+      }
+
+      .out {
+        background-color: gray;
+        display: flex;
+      }
+
+      .inn {
+        background-color: rgb(199, 196, 196);
+        width: 150px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .yyy {
+        width: 310px;
+        padding: 2px 19px;
+        margin-left: 25px;
+        margin-top: 20px;
+      }
+
+      .sqq {
+        width: 220px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+
+      .round {
+        background-color: rgb(216, 215, 215);
+        margin-top: 150px;
+        margin-left: 50px;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+      }
+
+      .round1 {
+        background-color: rgb(216, 215, 215);
+        margin-top: 100px;
+        width: 120px;
+        margin-left: 40px;
+        height: 120px;
+        border-radius: 100%;
+
+      }
+
+      .mm {
+        width: 230px;
+        margin-left: 50px;
+        margin-top: 20px;
+
+      }
+      .round2 {
+        background-color: rgb(216, 215, 215);
+        margin-top: 10px;
+        width: 90px;
+        margin-left: 40px;
+        height: 90px;
+        border-radius: 100%;
+        margin-left:-5px ;
+
+      }
+      #arr{
+        margin-top: 50px;
+      }
+      .ro{
+         background-color: rgb(216, 215, 215);
+        margin-top: -10px;
+        width: 40px;
+        margin-left: -20px;
+        height: 40px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .rou{
+         background-color: rgb(216, 215, 215);
+        margin-top: 10px;
+        width: 60px;
+        margin-left: 50px;
+        margin-bottom: -40px;
+        height: 60px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .roun{
+         background-color: rgb(216, 215, 215);
+        margin-top:10px;
+        width: 90px;
+        margin-left: 0px;
+        height: 90px;
+        border-radius: 100%;
+        list-style: none;
+        
+      }
+      .rounn{
+         background-color: rgb(216, 215, 215);
+        margin-top: -40px;
+        width: 120px;
+        margin-left: 15px;
+        height: 120px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .ico{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-bottom: -60px;
+      
+      }
+      
+    
+    @media screen and (max-width:767px) {
+
+
+      .s2 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .s2 a {
+        background-color: rgb(205, 201, 201);
+        margin-right: 15px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+
+
+      }
+
+      .s2 a i {
+        width: 20px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 20px;
+
+      }
+
+      .btnt {
+        height: 35px;
+        background-color: rgb(218, 218, 6);
+        border-radius: 20px;
+        margin-right: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .btnt:hover {
+        background-color: orange;
+      }
+
+      .blank {
+        background-color: rgb(205, 201, 201);
+        width: 50px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 2px;
+      }
+
+      .nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .back {
+
+        width: 100%;
+        height: 380px;
+        margin-top: 80px;
+        opacity: 0.4 black;
+
+      }
+
+      .dd {
+        transform: translateY(-240px);
+        margin-left: 25px;
+      }
+
+      .disc {
+        color: rgb(199, 139, 8);
+        font-size: 23px;
+
+      }
+
+      .sec {
+        margin-left: 20px;
+        transform: translateY(-200px);
+      }
+
+      .out {
+        background-color: gray;
+        display: flex;
+      }
+
+      .inn {
+        background-color: rgb(199, 196, 196);
+        width: 150px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .yyy {
+        width: 310px;
+        padding: 2px 19px;
+        margin-left: 25px;
+        margin-top: 20px;
+      }
+
+      .sqq {
+        width: 220px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+
+      .round {
+        background-color: rgb(216, 215, 215);
+        margin-top: 150px;
+        margin-left: 50px;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+      }
+
+      .round1 {
+        background-color: rgb(216, 215, 215);
+        margin-top: 100px;
+        width: 120px;
+        margin-left: 40px;
+        height: 120px;
+        border-radius: 100%;
+
+      }
+
+      .mm {
+        width: 230px;
+        margin-left: 50px;
+        margin-top: 20px;
+
+      }
+      .round2 {
+        background-color: rgb(216, 215, 215);
+        margin-top: 10px;
+        width: 90px;
+        margin-left: 40px;
+        height: 90px;
+        border-radius: 100%;
+        margin-left:-5px ;
+
+      }
+      #arr{
+        margin-top: 50px;
+      }
+      .ro{
+         background-color: rgb(216, 215, 215);
+        margin-top: -10px;
+        width: 40px;
+        margin-left: -20px;
+        height: 40px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .rou{
+         background-color: rgb(216, 215, 215);
+        margin-top: 10px;
+        width: 60px;
+        margin-left: 50px;
+        margin-bottom: -40px;
+        height: 60px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .roun{
+         background-color: rgb(216, 215, 215);
+        margin-top:10px;
+        width: 90px;
+        margin-left: 0px;
+        height: 90px;
+        border-radius: 100%;
+        list-style: none;
+        
+      }
+      .rounn{
+         background-color: rgb(216, 215, 215);
+        margin-top: -40px;
+        width: 120px;
+        margin-left: 15px;
+        height: 120px;
+        border-radius: 100%;
+        list-style: none;
+      }
+      .ico{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-bottom: -60px;
+      
+      }
+    
+  }
+  </style>
+</head>
+
+<body>
+  <div style="width:470px ;">
+
+  <div class="nav">
+    <div class="blank"></div>
+    <div class="s2">
+      <li>
+        <a href=""><i class="fa fa-phone"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="fa fa-envelope"></i></a>
+      </li>
+      <button class="btnt">sign Up</button>
+    </div>
+  </div>
+  <hr style="width:100%;height: 1px; text-align:left;margin-left:0;background-color:black">
+  <div class="ico">
+    <li><i class="fa fa-bars fa-2x" aria-hidden="true"></i></li>
+    <li><i class="fa fa-comment fa-2x" aria-hidden="true"></i> </li>
+  </div>
+  <div>
+    <img class="back"
+      src="https://img.freepik.com/premium-photo/high-angle-smiley-boy-with-glasses-studying_23-2148355253.jpg?size=626&ext=jpg&ga=GA1.2.807880037.1664037589"
+      alt="">
+    <div class="dd">
+      <span style="font-size: 10px;"> IT'S EASY IT'S FREE </span><br>
+      <span class="disc">
+        We provide on-<br>
+        Demand Live 1 on 1 <br>
+        Classes<br>
+      </span>
+      <span style="color:white ; font-size: 12px ;">A free platform for students to interact 1 to 1<br>
+        with their choosen tutor at the click of the mouse!</span><br>
+      <button style="background-color:yellow ; border-radius: 20px; border-style: none ; margin-top: 10px; ">Book a FREE
+        Demo</button>&nbsp; &nbsp;
+      <button style="background-color:transparent ; color:yellow ; border-radius: 20px;border-color: yellow;">Join as a
+        Teacher</button>
+    </div>
+  </div>
+  <div class="sec">
+    <h6>Browse Teacher at One Click</h6>
+    I am a<br>
+
+    <input type="radio" name="sh" checked>Student/Parent &nbsp; &nbsp;
+    <input type="radio" name="sh">Teacher<br><br>
+  </div>
+  <div class="input-group input-group-lg" style="margin-left: 17px; margin-top: -200px;">
+
+    <select style="border-radius:10px ; color: aliceblue; width: 140px;" class="form-select bg-dark" aria-label="Default select example">
+      <option selected>Subjects</option>
+      <option value="1">Science</option>
+      <option value="2">maths</option>
+      <option value="3">English</option>
+    </select>
+    <select style="border-radius:10px ; color: aliceblue; width: 160px;" class="form-select bg-secondary" aria-label="Default select example">
+      <option selected>Grade</option>
+      <option value="1">A+</option>
+      <option value="2">B+</option>
+      <option value="3">C+</option>
+    </select>
+    <span style="margin-left: -22px; justify-content: center; width: 23px;align-items: center; border-radius: 100%; background-color: black; color: aliceblue;"><i  class="fa fa-search"></i></span>
+
+
+
+
+  </div>
+ <span style="margin-left: 20px;">About Us</span> <br> <br>
+<div style="display: flex;">
+<div style="width: 260px ; margin-left: 20px; font-size: 13px;">
+  Sikho.live provides a virtual classroom which includes features like video chat, whiteboard interface and files sharing that allow tutors and students to communicate face to face in a virtual classroom space all from comfart of their own homes.
+
+At the moment, we provide tutoring for all subjects from primary, middle school, high school, university and also test prep.
+
+We have students for IB board, Cambridge, K-12 of USA and Canada and even specialisation of various university subjects such as operation reserach, signal processing, etc
+</div>
+<ul>
+<li class="ro">
+
+</li>
+<li class="rou">
+
+</li>
+<li class="roun">
+  <li class="rounn">
+
+  </li>
+
+</li>
+
+
+
+
+
+
+</ul>
+</div><br>
+<div style="width:430px ; margin-left: 20px;">
+<h4>How It Works</h4>
+<p>For Students</p>
+<div style="display: flex; justify-content: space-around;">
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -130px;">Browse teachers</span>
+  <i class="fa fa-arrow-right" aria-hidden="true" id="arr"></i>
+
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -140px;">Book a free demo</span>
+  <i class="fa fa-arrow-right" aria-hidden="true" id="arr"></i>
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -130px;">Pay and schedule</span>
+  <a style="font-size: 12px; margin-top: 140px; margin-left: -90px; color: black;font-size: 14px;" href="#"><u>Learn More</u></a>
+</div>
+<p style="margin-top:30px ;">For Techers</p>
+<div style="display: flex; justify-content: space-around;">
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -120px;">Browse job posting</span>
+  <i class="fa fa-arrow-right" aria-hidden="true" id="arr"></i>
+
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -120px;">Giv 1hr free demo</span>
+  <i class="fa fa-arrow-right" aria-hidden="true" id="arr"></i>
+  <div class="round2">
+
+  </div>
+  <span style="font-size: 12px; margin-top: 100px; margin-left: -130px;">Schedule and grt pay</span>
+  <a style="font-size: 12px; margin-top: 140px; margin-left: -90px; color: black;font-size: 14px;" href="#"><u>Learn More</u></a>
+</div>
+
+
+
+
+
+
+</div>
+  <div class="out">
+    <div class="inn">
+    </div>
+
+    <div class="yyy">
+      <h5>Why choose Us</h5>
+      we care about your career and
+      provide these unoque features:
+      Strictly 1 on 1 live classes with
+      Digital Whiteboard. Highest Rated
+      Teachers with regular homework and
+      Weekly Test. <br>
+      Progress Report for Parents with
+      Customer, Handmade Notes and 24 *
+      7 Support(We are just WhatsApp call/message away)
+    </div>
+  </div>
+  <div style="display: flex; margin-top: 50px;">
+    <div class="sqq">
+      <h3>Let's Get Sarted</h3>
+      With Sikho.live it is easy to find expert teachers in under 5 minutes. Just follow 3 easy steps. Also 24 x 7
+      Support available, we are just a call/WhatsApp away. 1 Tell us what you want to learn? 2 We find you a sutaible
+      teacher 3 Book and pay for your class <br> <br>
+      <span style="color: black; font-size: 16px;">Book a FREE Demo &nbsp; <span><i class="fa fa-arrow-circle-right"
+            aria-hidden="true"></i></span></span>
+    </div>
+    <div class="round">
+
+    </div>
+  </div>
+  <div style="display: flex; margin-top: 50px;">
+    <div class="round1">
+
+    </div>
+    <div class="mm">
+      Are you a passionate teachers? Be a part of sikho.live and boost your carrier and business growth. Follow 3 simple steps to start
+      with. <br>
+      1 Make a profile (It's FREE) <br> 2 We connect you with student <br> 3 Monthly payouts <br> <br>
+      <span style="color: black; font-size: 16px; margin-left:70px ;"> <span><i class="fa fa-arrow-circle-left"
+        aria-hidden="true"></i></span>&nbsp; Book a FREE Demo</span>
+</div>
+  </div>
+  <div style="margin-left: 20px;">
+  <h5>FAQs</h5>
+  <div>
+    <select class="form-select form-select-sm border-0" aria-label=".form-select-sm example">
+      <option selected>Lorem, ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="1">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="2">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="3">Lorem ipsum, dolor sit amet consectetur adipisicing?</option>
+    </select>
+    <select class="form-select form-select-sm border-0" aria-label=".form-select-sm example">
+      <option selected>Lorem, ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="1">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="2">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="3">Lorem ipsum, dolor sit amet consectetur adipisicing?</option>
+    </select>
+    <select class="form-select form-select-sm border-0" aria-label=".form-select-sm example">
+      <option selected>Lorem, ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="1">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="2">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="3">Lorem ipsum, dolor sit amet consectetur adipisicing?</option>
+    </select>
+    <select class="form-select form-select-sm border-0" aria-label=".form-select-sm example">
+      <option selected>Lorem, ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="1">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="2">Lorem ipsum dolor sit amet consectetur adipisicing?</option>
+      <option value="3">Lorem ipsum, dolor sit amet consectetur adipisicing?</option>
+    </select>
+    
+  </div>
+  <div  style="margin-bottom: 40px;">
+  <h6 style="margin-top: 20px; margin-left: 210px;">Give Feedback</h6>
+  <h6 style="margin-left: 360px; margin-top: -28px;">View All</h6>
+</div>
+</div>
+</div>
+</div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
